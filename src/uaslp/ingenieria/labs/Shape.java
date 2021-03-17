@@ -2,10 +2,11 @@ package uaslp.ingenieria.labs;
 
 // No tiene sentido instanciar Shape
 
-public class Shape {
+public abstract class Shape {
+    protected String name;
 
     public String getName() {
-        return "shape";
+        return name;
     }
 
     // Tarea
