@@ -6,16 +6,12 @@ public class Rectangle extends Shape {
 
     private int base;
     private int height;
-    final int sides = 4;
 
     public Rectangle(int base, int height) {
         this.base = base;
         this.height = height;
         this.name = "Rectangle";
-    }
-
-    public int getSidesCount(){
-        return sides;
+        this.sideCount = 4;
     }
 
     public int getPerimeter(){

@@ -1,9 +1,7 @@
 package uaslp.ingenieria.labs;
 
 import uaslp.ingenieria.labs.shapes.*;
-import uaslp.ingenieria.labs.shapes.triangles.TriangleEquilateral;
-import uaslp.ingenieria.labs.shapes.triangles.TriangleIsosceles;
-import uaslp.ingenieria.labs.shapes.triangles.TriangleScalene;
+import uaslp.ingenieria.labs.shapes.triangles.*;
 
 import java.util.LinkedList;
 
